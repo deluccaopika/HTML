@@ -1,0 +1,68 @@
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<title>Aula 2-Tabela</title>
+	</head>
+	
+	<body>
+		<table border=1>
+			<tr> Cabeçalho
+				<th>Sabor</th>
+				<th>Preço</th>
+				<th>Quantidade</th>
+				<th>Cliente</th>
+				<th>Ilustração</th>
+			</tr>
+			
+			<tr> Pizza
+				<td>Pizza</td>
+				<td>R$ 18,99</td>
+				<td>2</td>
+				<td>Adryel</td>
+				<td>
+					<img style="width: 150px" src="../Imagenss/pastel_pizza.jpg">
+				</td>
+			</tr>
+			
+			<tr> Queijo
+				<td>Queijo</td>
+				<td>R$ 14,99</td>
+				<td>4</td>
+				<td>João</td>
+				<td>
+					<img style="width: 150px" src="../Imagenss/pastel_queijo.jpeg">
+				</td>
+			</tr>
+			
+			<tr> Frango/C
+				<td>Frango/C</td>
+				<td>R$ 18,99</td>
+				<td>1</td>
+				<td>Júlia</td>
+				<td>
+					<img style="width: 150px" src="../Imagenss/pastel_frango.webp">
+				</td>
+			</tr>
+			
+			<tr> Palmito
+				<td>Pizza</td>
+				<td>R$ 15,99</td>
+				<td>2</td>
+				<td>Bárbara</td>
+				<td>
+					<img style="width: 150px" src="../Imagenss/pastel_palmito.webp">
+				</td>
+			</tr>
+			
+			<tr> Carne Loka
+				<td>Carne Loka</td>
+				<td>R$ 18,99</td>
+				<td>2</td>
+				<td>Manuella</td>
+				<td>
+					<img style="width: 150px" src="../Imagenss/pastel_cloka.jpg">
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
