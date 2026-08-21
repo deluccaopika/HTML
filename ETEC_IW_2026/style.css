@@ -1,0 +1,19 @@
+.quad-1 {
+    width: 100px;
+    height: 100px;
+    background-color: orchid;
+}
+
+.quad-2 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+    
