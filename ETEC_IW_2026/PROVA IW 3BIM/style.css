@@ -5,15 +5,20 @@ html {
 .retangulo1 {
     background-color: antiquewhite;
     height: 85px;
-    width: 1920px;
+    width: 1910px;
     display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    position: relative;
+    left: 5px;
+    margin-bottom: 30px;
 }
 
 .logo {
     height: 75px;
     width: 100px;
     position: relative;
-    left: 10px;
+    left: 40px;
 }
 
 body {
@@ -23,24 +28,69 @@ body {
 .inicio {
     font-size: 25px;
     position: relative;
-    left: 80px;
 }
 
 .produtos {
    font-size: 25px;
     position: relative;
-    left: 200px; 
 }
 
 .avali {
     font-size: 25px;
     position: relative;
-    left: 300px; 
 }
 
 .marca {
     font-size: 25px;
     position: relative;
-    left: 400px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.itens {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.carrinho {
+    justify-self: flex-end;
+    position: relative;
+    top: 19px;
+    right: 40px;
+    height: 35px;
+    width: 35px;
+}
+
+.retangulo2 {
+    background-color: rgb(42, 74, 236);
+    height: 500px;
+    width: 1900px;
+    border-radius: 20px;
+    position: relative;
+    left: 10px;
+
+}
+
+.container-tenis {
+    display: inline-block;
+    background-color: #0000;
+    position: relative;
+}
+
+.degrade {
+    display: block;
+    width: 950px;
+    height: 500px;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+  mask-image: linear-gradient(to left, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+  border-radius: 20px;
+  position: relative;
+  left: 950px;
+}
+
+.main {
+    display: flex;
+    position: absolute;
+    bottom: 50%;
+    font-size: 80px;
+    left: 200px;
 }
